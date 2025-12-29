@@ -1,0 +1,37 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family:yekan ;
+    src: url(../font/iranyekanwebregular.b95439c1.b95439c1.woff);
+}
+
+@font-face {
+    font-family: farsinum;
+    src: url(../font/number/Dirooz-FD.woff);
+    
+    
+}
+
+@font-face {
+    font-family: yekanBold;
+    src: url(../font/iranyekanwebbold.e298fdc6.e298fdc6.woff);
+}
+
+.wrapper{
+    width: 100%;
+    font-family: yekan;
+
+direction: rtl;
+}
+
+:root{
+    --border-color: rgb(221, 221, 221);
+    --abi: rgb(0, 165, 165);
+}

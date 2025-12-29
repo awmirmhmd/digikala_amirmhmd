@@ -1,0 +1,183 @@
+
+@import url(./footer.css);
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./body.css);
+
+.company{
+        width: 100%; height: 150px;
+        background-color: #f0f0f1;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+
+        table{
+            width: 80%; height: 100%;
+            
+        }
+
+       td{
+            width: 128px; height: 50%;
+            text-align: center;
+            
+
+            img{
+                width: 100px;
+            }
+       }
+    }
+
+    .contact{
+        width: 50px; height: 50px;
+        background-color: rgb(239,64,86);
+        border-radius: 50%;
+        position: fixed;
+        right: 50px;
+        bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        svg{
+            fill: white !important;
+            
+        }
+    }
+
+    .supermarket{
+        width: 272px; height: 52px;
+        background-color: rgb(2,154,73);
+        border-radius: 35px;
+        position: fixed;
+        left: 20px;
+        bottom: 30px;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        z-index: 100;
+        cursor: pointer;
+
+        svg{
+            width: 15%;
+            fill: white;
+            margin-right: 5px;
+        }
+
+        p{
+            width: 85%;
+            color: white;
+            font-family: yekan;
+            font-size: 15px;
+        }
+    }
+
+    .citys{
+        position: fixed;
+        width: 500px; height: 800px;
+        background-color: white;
+        z-index: 200;
+        right: 700px;
+        bottom: 50px;
+        border-radius: 20px;
+        display: none;
+
+        .head{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            gap: 380px;
+            margin-top: 10px;
+            padding: 0 10px;
+
+            div:nth-of-type(1) {
+                display: inline-block;
+                
+            }
+            
+            div:nth-of-type(2) {
+                display: inline-block;
+
+                lable[for="close"] {
+                    display: block;
+                    width: 50px; height: 50px;
+                }
+            }
+
+            
+        }
+
+        .search{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content:flex-start;
+            position: relative;
+    
+        input{
+            width: 70%;
+            height: 50px;
+            border-radius: 5px;
+            background-color: #dcdcdf;
+            border: none;
+            padding-right: 50px;
+            margin: 10px auto;
+        }
+        input::placeholder{
+            font-family: yekan;
+
+        }
+
+        svg{
+            position: absolute;
+            right: 90px;
+            top: 25px;
+            fill: lightslategray;
+        }
+  
+    }
+
+        .mostcity{
+            width: 100%; height: 50px;
+
+        text-align: center;            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+
+            div:nth-of-type(1){
+                width: 60px; height: 30px;
+                border-radius: 20px;
+                border: 1px solid var(--border-color);
+                text-align: center;
+            }
+
+            div:nth-of-type(2){
+                width: 60px; height: 30px;
+                border-radius: 20px;
+                border: 1px solid var(--border-color);
+                text-align: center;
+            }
+
+            div:nth-of-type(3){
+                width: 60px; height: 30px;
+                border-radius: 20px;
+                border: 1px solid var(--border-color);
+                text-align: center;
+            }
+
+            div:nth-of-type(4){
+                width: 60px; height: 30px;
+                border-radius: 20px;
+                border: 1px solid var(--border-color);
+                text-align: center;
+            }
+        }
+    }

@@ -1,0 +1,361 @@
+footer{
+    width: 100%; height: 100%;
+    
+    padding: 30px 120px;
+
+    .one{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        width: 100%; height: 60px;
+        gap: 1400px;
+
+        .button{
+            width: 160px; height: 45px;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 2px 20px;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+
+            p{
+                display: inline-block;
+                font-family: yekan;
+                font-size: 12px;
+                color: rgb(173, 173, 173);
+            }
+
+            svg{
+                margin-right: 10px;
+                fill: rgb(173, 173, 173) !important;
+            }
+        }
+    }
+
+    .two{
+        width: 100%; height: 50px;
+        direction: rtl;
+
+        div{
+            display: inline-block;
+            font-family: yekan;
+            font-size: 14px;margin: 0 15px;
+            color: rgb(66, 66, 66);
+        }
+    }
+
+    .three{
+        width: 100%; height: 100px;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        gap: 230px;
+        margin-top: 50px;
+
+        div{
+            width: 160px; height: 160px;
+            text-align: center;
+
+            p{
+                font-family: yekan;
+                font-size: 12px;
+                direction: rtl;
+            }
+
+            img{
+                width: 70px; height: 70px;
+            }
+        }
+    }
+
+    .four{
+        width: 100%; height: fit-content;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+        div:nth-of-type(1){
+            width: 25%; height: 100%;
+            direction: rtl;
+            
+            h3{
+                font-family: yekan;
+            }
+
+            .icons{
+                width: 100% !important; height: 100px !important;
+                direction: rtl;
+                
+                img{
+                    width: 50px; height: 50px;
+                    margin: 10px 0;
+                }
+            }
+
+            input{
+                width: 80%; height: 50px;
+                margin-top: 20px;
+                background-color: rgb(228, 228, 228);
+                border-radius: 10px;
+                border: none;
+                padding: 10px;
+                font-family: yekan;
+                font-size: 18px;
+            }
+
+            .button{
+                display: inline-block;
+                background-color: rgb(182, 182, 182);
+                width: 19% !important; height: 50px !important;
+                border-radius: 10px;
+                text-align: center;
+                color: white;
+            }
+        }
+
+        div:nth-of-type(2){
+            width: 25%; height: 100%;
+            direction: rtl;
+            font-family: yekan;
+            line-height: 50px;
+
+            h3{
+                font-size: 20px;
+            }
+
+            a{
+                text-decoration: none;
+                color: rgb(173, 173, 173);
+            }
+        }
+
+        div:nth-of-type(3){
+            width: 25%; height: 100%;
+            direction: rtl;
+            font-family: yekan;
+            line-height: 50px;
+
+            h3{
+                font-size: 20px;
+            }
+
+            a{
+                text-decoration: none;
+                color: rgb(173, 173, 173);
+            }
+        }
+
+        div:nth-of-type(4){
+            width: 25%; height: 100%;
+            direction: rtl;
+            font-family: yekan;
+            line-height: 50px;
+
+            h3{
+                font-size: 20px;
+            }
+
+            a{
+                text-decoration: none;
+                color: rgb(173, 173, 173);
+            }
+        }
+
+    }
+
+    .five{
+        width: 100%; height: 70px;
+        margin: 30px auto;
+        background-color: rgb(60,75,109);
+        border-radius: 10px;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px;
+
+        div:nth-of-type(1){
+            width: 50%; height: 100%;
+            direction: ltr;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+
+            .more{
+                width: 42px; height: 44px;
+                background-color: white;
+                border-radius: 5px;
+                padding: 2px;
+                display: inline-block;
+                margin-right: 30px;
+
+                svg{
+                    width: 40px; height: 40px;
+                    fill: rgb(71, 71, 71);
+                }
+            }
+
+            img{
+                width: 142px; height: 44px;
+                margin: 0 10px;
+            }
+        }
+
+        div:nth-of-type(2){
+            width: 50%; height: 100%;
+            direction: rtl;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+
+            span{
+                font-family: yekan;
+                color: white;
+                margin-right: 15px;
+                font-size: 22px;
+            }
+        }
+    }
+
+    .six{
+        width: 100%; max-height: 2000px;
+        margin: 20px auto;
+        display: flex;
+        flex-flow: row;
+        gap: 150px;
+
+        .icons{
+            width: 30%; height: 200px;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            gap: 20px;
+
+            div{
+                width: 109px; height: 109px;
+                border: 1px solid var(--border-color);
+                border-radius: 10px;
+                display: inline;
+            }
+
+            div:nth-of-type(1){
+                background-image: url(../image/namad/enamad.png);
+                background-size: 80px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            div:nth-of-type(2){
+                background-image: url(../image/namad/etehadye.webp);
+                background-size: 60px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            div:nth-of-type(3){
+                background-image: url(../image/namad/zmant.webp);
+                background-size: 90px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            div:nth-of-type(4){
+                background-image: url(../image/namad/sapra.webp);
+                background-size: 70px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+
+        .bio{
+            width: 60%; height: inherit;
+            direction: rtl;
+            display: flex;
+            flex-flow: column;
+
+            h2{
+                font-family: yekan;
+                color: rgb(160, 160, 160);
+                margin: 10px 0;
+            }
+
+            .read-more-checkbox {
+                display: none;
+            }
+            
+            .text{
+                font-family: yekan;
+                font-size: 12px;
+                color: rgb(209, 209, 209);
+                line-height: 1.8;
+                text-align: justify;
+                max-height: 100px;
+                overflow: hidden;
+                transition: 500ms;
+                position: relative;
+            }
+
+            .text::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 40px;
+                background: linear-gradient(to top, white, transparent);
+                transition: 1s;
+            }
+
+            .read-more-checkbox:checked ~ .text {
+                max-height: 2000px;
+            }
+            
+
+            .read-more-checkbox:checked ~ .text::after {
+                display: none;
+            }
+
+            .read-more-btn {
+                display: inline-block;
+                color: #00aaff;
+                cursor: pointer;
+                margin-top: 10px;
+                font-weight: bold;
+                transition: color 0.3s;
+            }
+
+            .read-more-btn:hover {
+                text-decoration: underline;
+            }
+
+            .read-more-btn::before {
+                content: "مشاهده بیشتر";
+                font-family: yekan;
+                font-size: 12px;
+            }
+
+            .read-more-checkbox:checked ~ .read-more-btn::before {
+                content: "مشاهده کمتر";
+                font-family: yekan;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .policy{
+        width: 100%;
+        margin-top: 30px;
+
+        p{
+            font-family: yekan;
+            direction: rtl;
+            text-align: center;
+            font-size: 12px;
+            color: rgb(160, 160, 160);
+        }
+    }
+}

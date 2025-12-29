@@ -1,0 +1,15 @@
+{
+  "name": "session13",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Guchifard",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "swiper": "^12.0.3"
+  }
+}
